@@ -1,7 +1,10 @@
+import SectionProducts from '@/components/section-products'
+
 const Product = () => {
 	return (
-		<div>
-			<h1>Hello Product page</h1>
+		<div className='min-h-[600px]'>
+			{/* Product Section */}
+			<SectionProducts />
 		</div>
 	)
 }
