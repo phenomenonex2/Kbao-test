@@ -1,7 +1,7 @@
 /** libs */
 import Image from 'next/image'
 
-const ContactUs = () => {
+const ContactUs = (): React.JSX.Element => {
 	return (
 		<div className='min-h-[600px] max-w-5xl mx-auto py-20 px-4'>
 			<h1 className='text-3xl font-bold text-center mb-8'>Contact Us</h1>

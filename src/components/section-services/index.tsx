@@ -1,4 +1,4 @@
-const SectionServices = () => {
+const SectionServices = (): React.JSX.Element => {
 	return (
 		<section className='w-full bg-blue-100 py-12'>
 			<div className='mx-auto max-w-[1140px] px-4'>

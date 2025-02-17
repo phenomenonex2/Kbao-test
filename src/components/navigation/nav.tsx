@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 /** components */
 import NavItem from '@/components/navigation/nav-items'
 
-const GlobalNav = () => {
+const GlobalNav = (): React.JSX.Element => {
 	const pathname = usePathname()
 	const pageName = pathname === '/' ? 'home' : pathname.slice(1)
 	const [showMenu, setShowMenu] = useState(true)

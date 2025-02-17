@@ -1,4 +1,4 @@
-const About = () => {
+const About = (): React.JSX.Element => {
 	return (
 		<div className='min-h-[600px] max-w-6xl mx-auto px-4 py-20'>
 			<div className='text-center mb-16'>

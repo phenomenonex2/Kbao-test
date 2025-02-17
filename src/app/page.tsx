@@ -3,7 +3,7 @@ import TheatreImage from '@/components/theatre'
 import SectionProducts from '@/components/section-products'
 import SectionServices from '@/components/section-services'
 
-const Home = () => {
+const Home = (): React.JSX.Element => {
 	return (
 		<>
 			<section className='w-full'>

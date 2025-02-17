@@ -1,6 +1,6 @@
 import SectionProducts from '@/components/section-products'
 
-const Product = () => {
+const Product = (): React.JSX.Element => {
 	return (
 		<div className='min-h-[600px]'>
 			{/* Product Section */}

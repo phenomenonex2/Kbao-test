@@ -1,4 +1,4 @@
-const SectionProducts = () => {
+const SectionProducts = (): React.JSX.Element => {
 	return (
 		<section className='mx-auto max-w-[1140px] px-4 py-12'>
 			<h2 className='text-center text-xl md:text-4xl font-bold text-blue-600 mb-8'>
